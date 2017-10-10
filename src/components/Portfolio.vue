@@ -21,23 +21,19 @@
                     <img src="http://res.cloudinary.com/dmyvekzok/image/upload/c_scale,w_300/v1502836114/Screen_Shot_2017-08-15_at_4.25.54_PM_ygl0us.png"></img>
                   </v-card-text>
                   <v-card-title primary-title class="layout justify-center">
-                    <div class="headline text-xs-center">Material Design</div>
+                    <div class="headline text-xs-center">Inspire</div>
                   </v-card-title>
                   <v-card-text>
-                    Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. Pellentesque habitant morbi tristique senectus
-                    et netus et malesuada fames ac turpis egestas. Nullam in aliquet odio. Aliquam eu est vitae tellus
-                    bibendum tincidunt. Suspendisse potenti.
+                    Example of a project that accesses several API's called through several services and controllers to provide a daily landing page.
+                    Data is persistent through a Node server deployed to Heroku. 
                   </v-card-text>
                 </v-card>
-
-              
-
-
             </v-flex>
             <v-flex xs12 md4>
               <v-card class="elevation-0 transparent">
                 <v-card-text class="text-xs-center">
-                  <v-icon x-large class="black--text text--lighten-2">flash_on</v-icon>
+                  <!-- <v-icon x-large class="black--text text--lighten-2">flash_on</v-icon> -->
+                  <img src="http://res.cloudinary.com/dmyvekzok/image/upload/c_scale,w_300/v1507606013/Screen_Shot_2017-10-09_at_9.26.17_PM_ft8vks.png"></img>
                 </v-card-text>
                 <v-card-title primary-title class="layout justify-center">
                   <div class="headline">Fast development</div>
