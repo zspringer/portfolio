@@ -1,5 +1,6 @@
 <template>
     <div id="about-me">
+        <h2>{{msg}}</h2>
         <section>
             <v-layout>
                 <v-flex xs12 sm6 offset-sm3>
@@ -21,11 +22,10 @@
                                         </a>, is Agile and Leadership coach.</p>
                                     <p>I've always been interested in development work and decided to make a career change after
                                         14 years with the government. I'm so excited to work in this field where I can converge
-                                        my passion and enthusiasm to create awesome products that are functional and
-                                        possess that "wow" factor. I have a strong belief in creating products that really
-                                        work for the end-user. I'm extremely client-oriented and I want to make the best
-                                        product that is easily maintainable and most importantly, WORKS the way you want
-                                        it to.</p>
+                                        my passion and enthusiasm to create awesome products that are functional and possess
+                                        that "wow" factor. I have a strong belief in creating products that really work for
+                                        the end-user. I'm extremely client-oriented and I want to make the best product that
+                                        is easily maintainable and most importantly, WORKS the way you want it to.</p>
                                     </p>
                                 </div>
                             </div>
@@ -52,13 +52,18 @@
 
 <script>
     export default {
-        name: 'about'
+        name: 'about',
+        data() {
+            return {
+                msg: 'About Me'
+            }
+        }
 
     }
 </script>
 
-<style>
+<style scoped>
     #about-me {
-        padding: 200px;
+        padding-top: 200px;
     }
 </style>
