@@ -122,7 +122,7 @@
       <main>
         <section>
           <!-- <v-parallax src="http://res.cloudinary.com/dmyvekzok/image/upload/v1500673114/20170506_094130_l7hl3j.jpg"> -->
-            <v-parallax src="http://res.cloudinary.com/dmyvekzok/image/upload/c_scale,w_2800/v1500673114/20170506_094130_l7hl3j.jpg">
+          <v-parallax src="http://res.cloudinary.com/dmyvekzok/image/upload/c_scale,w_2800/v1500673114/20170506_094130_l7hl3j.jpg">
             <!-- <v-layout
              column
              align-center
@@ -155,8 +155,8 @@
 
         <section>
           <!-- <v-parallax src="https://res.cloudinary.com/dmyvekzok/image/upload/v1507567605/20170505_174549_hfip05.jpg"> -->
-            <v-parallax src="http://res.cloudinary.com/dmyvekzok/image/upload/c_scale,w_1100/v1507567605/20170505_174549_hfip05.jpg"></v-parallax>
-            <!-- <v-layout
+          <v-parallax src="http://res.cloudinary.com/dmyvekzok/image/upload/c_scale,w_1100/v1507567605/20170505_174549_hfip05.jpg"></v-parallax>
+          <!-- <v-layout
               column
               align-center
               justify-center
@@ -177,17 +177,7 @@
           </v-parallax>
         </section>
 
-
-
-
-
-
-
-
-
-
-
-        <section>
+        <!-- <section>
           <v-parallax src="assets/section.jpeg" height="380">
             <v-layout column align-center justify-center>
               <div class="headline white--text mb-3">Web development has never been easier</div>
@@ -197,9 +187,9 @@
               </v-btn>
             </v-layout>
           </v-parallax>
-        </section>
+        </section> -->
 
-        <section>
+        <!-- <section>
           <v-container grid-list-xl>
             <v-layout row wrap justify-center class="my-5">
               <v-flex xs12 sm4>
@@ -214,7 +204,8 @@
                   </v-card-text>
                 </v-card>
               </v-flex>
-              <v-flex xs12 sm4 offset-sm1>
+              <v-flex xs12 sm6 offset-sm1>
+              <v-flex xs12 sm6>
                 <v-card class="elevation-0 transparent">
                   <v-card-title primary-title class="layout justify-center">
                     <div class="headline">Contact us</div>
@@ -252,7 +243,9 @@
               </v-flex>
             </v-layout>
           </v-container>
-        </section>
+        </section> -->
+
+        <Contact></Contact>
 
         <!-- <v-footer class="blue darken-2">
          <v-layout row wrap align-center>
@@ -274,13 +267,15 @@
   import Navbar from './components/Navbar'
   import Portfolio from './components/Portfolio'
   import About from './components/About'
+  import Contact from './components/Contact'
 
   export default {
     name: 'app',
     components: {
       Navbar,
       About,
-      Portfolio
+      Portfolio,
+      Contact
     },
     data() {
       return {
