@@ -1,9 +1,9 @@
 <template>
-    <div class="nav">
-            <a href="#about-me">About</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-            <a href="http://res.cloudinary.com/dmyvekzok/image/upload/v1507576439/Resume_Web_10-09-2017_a0v40t.pdf">Resume</a>
+    <div id="nav">
+        <a style="color: black" href="#about-me">About</a>
+        <a style="color: black" href="#portfolio">Portfolio</a>
+        <a style="color: black" href="#contact">Contact</a>
+        <a style="color: black" href="http://res.cloudinary.com/dmyvekzok/image/upload/v1507576439/Resume_Web_10-09-2017_a0v40t.pdf">Resume</a>
     </div>
 </template>
 
@@ -19,7 +19,7 @@
 </script>
 
 <style scoped>
-    a{
+    a {
         margin: 10px;
     }
 </style>

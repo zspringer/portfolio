@@ -121,8 +121,8 @@
       </v-toolbar>
       <main>
         <section>
-          <v-parallax src="http://res.cloudinary.com/dmyvekzok/image/upload/v1500673114/20170506_094130_l7hl3j.jpg">
-            <!-- <v-parallax src="https://res.cloudinary.com/dmyvekzok/image/upload/v1507567605/20170505_174549_hfip05.jpg"> -->
+          <!-- <v-parallax src="http://res.cloudinary.com/dmyvekzok/image/upload/v1500673114/20170506_094130_l7hl3j.jpg"> -->
+            <v-parallax src="http://res.cloudinary.com/dmyvekzok/image/upload/c_scale,w_2800/v1500673114/20170506_094130_l7hl3j.jpg">
             <!-- <v-layout
              column
              align-center
@@ -154,8 +154,8 @@
 
 
         <section>
-          <v-parallax src="https://res.cloudinary.com/dmyvekzok/image/upload/v1507567605/20170505_174549_hfip05.jpg">
-            <!-- <v-parallax src="http://res.cloudinary.com/dmyvekzok/image/upload/v1500673114/20170506_094130_l7hl3j.jpg"></v-parallax> -->
+          <!-- <v-parallax src="https://res.cloudinary.com/dmyvekzok/image/upload/v1507567605/20170505_174549_hfip05.jpg"> -->
+            <v-parallax src="http://res.cloudinary.com/dmyvekzok/image/upload/c_scale,w_1100/v1507567605/20170505_174549_hfip05.jpg"></v-parallax>
             <!-- <v-layout
               column
               align-center
