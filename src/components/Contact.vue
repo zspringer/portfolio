@@ -19,7 +19,7 @@
                     <v-flex xs12 sm6>
                         <v-card class="elevation-0 transparent">
                             <v-card-title primary-title class="layout justify-center">
-                                <div class="headline">Contact Me</div>
+                                <div class="headline">Contact Me Zach</div>
                             </v-card-title>
                             <v-card-text>
                                 <!-- Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. -->
