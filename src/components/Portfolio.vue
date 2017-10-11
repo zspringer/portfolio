@@ -61,7 +61,7 @@
               </v-card>
             </v-flex>
 
-            <v-flex xs12 md4>
+            <v-flex xs12 md6>
               <v-card class="elevation-0 transparent">
                   <v-card-text class="text-xs-center">
                     <!-- <v-icon x-large class="black--text text--lighten-2">color_lens</v-icon> -->
@@ -80,25 +80,25 @@
                   </v-card-text>
                 </v-card>
             </v-flex>
-            <v-flex xs12 md4>
+            <v-flex xs12 md6>
               <v-card class="elevation-0 transparent">
                 <v-card-text class="text-xs-center">
                   <!-- <v-icon x-large class="black--text text--lighten-2">flash_on</v-icon> -->
-                  <img src="http://res.cloudinary.com/dmyvekzok/image/upload/c_scale,w_300/v1507606013/Screen_Shot_2017-10-09_at_9.26.17_PM_ft8vks.png"></img>
+                  <img src="http://res.cloudinary.com/dmyvekzok/image/upload/c_scale,h_202,w_300/v1507680335/Screen_Shot_2017-10-10_at_6.04.55_PM_dafwvg.png"></img>
                 </v-card-text>
                 <v-card-title primary-title class="layout justify-center">
-                  <a class="headline" href="https://zspringer.github.io/NFL_Roster">NFL</a>
+                  <a class="headline" href="http://vue-music-is-fun.herokuapp.com/#/">Vue Music</a>
                 </v-card-title>
                 <v-card-text>
-                  Example of a project that utilizes the NFL API to create a list of players for a fantasy football team.  This project
-                  was built with vanilla Javascript and Bootstrap.
+                  Example of my first project built with Vue.js.  This project utilizes the iTunes API as well as Node.js to build
+                  a playlist of short music clips persisted through a Node server and hosted at Heroku.
                 </v-card-text>
               </v-card>
             </v-flex>
-            <v-flex xs12 md4>
+            <!-- <v-flex xs12 md4>
               <v-card class="elevation-0 transparent">
                 <v-card-text class="text-xs-center">
-                  <!-- <v-icon x-large class="black--text text--lighten-2">build</v-icon> -->
+                  <v-icon x-large class="black--text text--lighten-2">build</v-icon>
                   <img src="http://res.cloudinary.com/dmyvekzok/image/upload/c_scale,h_202,w_300/v1507664722/Screen_Shot_2017-10-10_at_1.42.30_PM_akwlzt.png"></img>
                 </v-card-text>
                 <v-card-title primary-title class="layout justify-center">
@@ -109,7 +109,7 @@
                   users with project management.  This project is very similar to Trello.
                 </v-card-text>
               </v-card>
-            </v-flex>
+            </v-flex> -->
 
 
 
